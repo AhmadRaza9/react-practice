@@ -2,18 +2,27 @@ import ExpenseItem from "./components/ExpenseItem";
 function App() {
   const expenses = [
     {
-      title: "Car Insurance",
+      id: "e1",
+      title: "Toilet Paper",
       amount: 298,
       date: new Date(2000, 1, 1).toString(),
     },
     {
+      id: "e2",
       title: "Car Insurance",
-      amount: 298,
+      amount: 350,
       date: new Date(2000, 1, 1).toString(),
     },
     {
-      title: "Car Insurance",
-      amount: 298,
+      id: "e3",
+      title: "New Desk (Wooden)",
+      amount: 460,
+      date: new Date(2000, 1, 1).toString(),
+    },
+    {
+      id: "e4",
+      title: "New TV",
+      amount: 876,
       date: new Date(2000, 1, 1).toString(),
     },
   ];
